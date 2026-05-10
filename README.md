@@ -2,6 +2,8 @@
 
 Windows Terminal rice inspired by the Arc Raiders aesthetic — neon stripes, dark background, minimal noise.
 
+![preview](preview.png)
+
 ## What's included
 
 | File | Description |
