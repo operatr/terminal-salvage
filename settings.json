@@ -44,7 +44,7 @@
     {
         "defaults": 
         {
-            "backgroundImage": "C:\\Users\\geist\\Pictures\\Terminal\\arc-raiders-bg-flipped.png",
+            "backgroundImage": "C:\\Users\\geist\\Pictures\\Terminal\\neon-stripes-bg.png",
             "backgroundImageOpacity": 0.35,
             "backgroundImageStretchMode": "uniformToFill",
             "colorScheme": "Arc Raiders-ish",
