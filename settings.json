@@ -1,0 +1,116 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "sendInput",
+                "input": "\u001b\r"
+            },
+            "id": "User.sendInput.8F63D3A9"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings": 
+    [
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        },
+        {
+            "id": "User.sendInput.8F63D3A9",
+            "keys": "shift+enter"
+        },
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "backgroundImage": "C:\\Users\\geist\\Pictures\\Terminal\\arc-raiders-bg-flipped.png",
+            "backgroundImageOpacity": 0.35,
+            "backgroundImageStretchMode": "uniformToFill",
+            "colorScheme": "Arc Raiders-ish",
+            "font": 
+            {
+                "face": "Azeret Mono",
+                "size": 12
+            },
+            "opacity": 92,
+            "padding": "12, 10, 12, 10",
+            "useAcrylic": true
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "experimental.retroTerminalEffect": true,
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "name": "Arc Raiders-ish",
+            "background": "#111315",
+            "foreground": "#D8D0C2",
+            "cursorColor": "#D97B2D",
+            "selectionBackground": "#2A2E31",
+            "black": "#1B1E20",
+            "red": "#B85C38",
+            "green": "#8C9B6E",
+            "yellow": "#C9A15A",
+            "blue": "#6F8799",
+            "purple": "#8D7A90",
+            "cyan": "#6FA7A1",
+            "white": "#CFC7B8",
+            "brightBlack": "#4A4F52",
+            "brightRed": "#D97B2D",
+            "brightGreen": "#A7B58A",
+            "brightYellow": "#E0B86E",
+            "brightBlue": "#8EA5B5",
+            "brightPurple": "#A792AA",
+            "brightCyan": "#8FC4BE",
+            "brightWhite": "#F2EBDD"
+        }
+    ],
+    "themes": []
+}
